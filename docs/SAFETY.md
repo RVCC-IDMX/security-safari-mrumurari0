@@ -23,7 +23,7 @@ The Vite CVE is a **build-time vulnerability** in the development server. Once t
 The "secrets" in this project are fake:
 
 - `sk_live_abc123_not_real_but_looks_real` — not a real API key
-- `sk_live_real_secret_oops` — also fake
+- `sk_live_REDACTED` — also fake
 
 They don't connect to any real service. Exposing them has no consequences.
 
