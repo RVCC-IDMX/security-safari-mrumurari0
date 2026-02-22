@@ -108,7 +108,7 @@ export const API_KEY = "sk_live_abc123...";
 
 **You:** Good. Now check the git history for any deleted .env files.
 
-**AI:** I found that .env was committed in commit abc123 and deleted in commit def456. The contents included API_KEY=sk_live_real_secret_oops.
+**AI:** I found that .env was committed in commit abc123 and deleted in commit def456. The contents included API_KEY=sk_live_REDACTED.
 
 **You:** _Verify by running:_ `git log --all -- .env` and `git show abc123:.env`
 
